@@ -1,0 +1,12 @@
+
+-- header = a block of data on disk providing information about the size,
+         location,etc of a file. --
+
+
+-- elf header = is the main block of data which shows information about
+   machine,version,program header,section header,etc.
+
+-- section header = contains details about special section that contribute
+   to the execution of the program. --
+
+

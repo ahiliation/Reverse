@@ -1,0 +1,13 @@
+
+-- 1. find the binary --
+-- 2. find the source language ( if possible ) --
+-- 3. disassemble the binary to assembly code translation --
+objdump --disassemble <elf file>
+
+-- 4. if it is a firmware try disassembling using HT Editor --
+http://hte.sourceforge.net
+
+-- 5. read the assembly code and create source code in high level language -- 
+
+-- 6. try to read the specification of a free driver and then try to find
+      the values of those parameter of related one for the non-free driver --
